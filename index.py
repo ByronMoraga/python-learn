@@ -43,7 +43,16 @@ if __name__ == '__main__':
 # console: pip freeze > ../../requirements.txt
 
 # Instalar git for visual studio code
-# console: cd src
-# console: git init
-# console: git status
-
+# console:
+#  cd src
+#  git init
+#  git add .
+#  git status
+# configurar git ------------->
+# git config user.name "byron"
+# git config user.email byron_moraga@hotmail.com
+# -----------------------------
+# git commit -m "primera subida a heroku"
+# heroku create python-app-byron
+# heroku git:remote python-app-byron
+# git push heroku master
